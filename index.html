@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MDN</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <img class='avatar' src="mdn.png">
+                <div class="info-text">
+                <h1>Не официальный сайт MDN</h1>
+                <p>Документация к разным языкам програмирования</p>
+                </div>
+            </div>
+            <hr>
+            <div class="doc">
+                <h2>Сылки на документацию</h2>
+                <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank">HTML</a> |
+                <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank">CSS</a> |
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript" target="_blank">JavaScript</a>
+            </div>
+            <hr>
+            <h2 style="text-align: center;">Рекомендуем к просмотру!</h2>
+            <iframe src="https://www.youtube.com/embed/SpCUuyZZTp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+            <div class="contact">
+                <h2>Связаться с нами!</h2>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ведите свое имя:</label>
+                        <input type="text" id="name" placeholder="Введите свое имя...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ведите свой email:</label>
+                        <input type="email" id="email" placeholder="Введите свой email...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Введите свое сообщение:</label>
+                    <textarea id="text" placeholder="Введите свое сообщение..."></textarea>
+                </div>
+                <button class="btn">Связаться!</button>
+            </div>
+            <img class="up" onclick="goUp();" src="Icons8-Windows-8-Arrows-Up-Circular.ico">
+            <script src="script.js"></script>
+        </div>
+        <br>
+        <div class="lic">
+            <h5>Все права защищены MDN Group 2007 - 2022</h5>
+        </div>
+    </body>
+</html>

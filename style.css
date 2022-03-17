@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 750px;
+    padding: 25px 25px;
+    margin: auto;
+    background-color: #9cb9d1;
+    border-radius: 12px;
+}
+hr{
+    margin: 25px 0px;
+    border: 1px solid #094d74;
+}
+.avatar{
+    border-radius: 40px;
+}
+p{
+    color: #3d3d3d;
+}
+.info{
+    display: flex;
+}
+.info-text{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.doc{
+    margin: 0px 200px;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    background-color: #759cd8;
+    text-align: center;
+    border-radius: 12px;
+}
+.doc h3{
+    margin: 12px;
+}
+.up{
+    background-color: #094d74;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+}
+iframe{
+    width: 750px;
+    height: 425px;
+}
+label{
+    font-size: 16px;
+    color: #3d3d3d;
+    display: block;
+}
+.contact h2{
+    text-align: center;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #094d74;
+    color: black;
+    padding: 10px 1px;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group{
+    width: 50%;
+}
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+.btn{
+    background-color: black;
+    padding: 10px 20px;
+    color: beige;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.lic{
+    max-width: 750px;
+    padding: 1px 25px;
+    margin: auto;
+    background-color: #094d74;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+}
